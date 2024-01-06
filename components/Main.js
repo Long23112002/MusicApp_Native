@@ -1,8 +1,10 @@
 import React from "react";
 import { Text, View } from "react-native";
 import {StyleSheet} from 'react-native';
-import NavBarComponent from "./navbar/NavbarComponent";
-import ArticleComponent from "./article/ArticleComponent";
+import NavBarComponent from "./screenplay/navbar/NavbarComponent";
+import ArticleComponent from "./screenplay/article/ArticleComponent";
+import AsideComponents from "./screenplay/aside/AsideComponents";
+import FooterComponents from "./screenplay/footer/FooterComponents";
 
 const Main = () => {
  
@@ -19,12 +21,12 @@ const Main = () => {
 
 
       <View style={styles.aside}>
-        <Text>Main3</Text>
+        <AsideComponents/>
       </View>
 
       <View style={styles.footer}>
-      <Text>Main3</Text>
-    </View>
+        <FooterComponents/>
+      </View>
       
 
     </View>
@@ -34,7 +36,6 @@ const styles = StyleSheet.create({
     container:{
         width: '100%',
         height: '100%',
-        backgroundColor: 'red',
     },
     headers:{
         width: '100%',
@@ -47,11 +48,10 @@ const styles = StyleSheet.create({
     },
     aside:{
         height: '19.33%',
-        backgroundColor: 'purple',
     },
     footer:{
         height: '20.33%',
-        backgroundColor: 'green',
+        backgroundColor: '#FFECF2',
     },
    
   })

@@ -81,11 +81,9 @@ const styles = StyleSheet.create({
     
   },
   textstyle: {
-    fontFamily: "inter500",
     color:'#5A5A5A',
     fontWeight:'700',
     lineHeight:19,
-    fontFamily: 'Inter-Medium',
     fontSize:15,
   },
 

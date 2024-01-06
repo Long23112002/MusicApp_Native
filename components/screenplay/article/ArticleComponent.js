@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Image, StyleSheet } from 'react-native';
-import img from '../../assets/img/imgbackground.png'
+import img from '../../../assets/img/imgbackground.png'
 const ArticleComponent = () => {
   return (
     <View style={styles.container}>
